@@ -137,8 +137,11 @@ public class EntoEpidMain {
         V[1] = v(temperature);
         A[1] = a(temperature);
 
-        double n = V[1] / 3;
-        Sv[1] = Ev[1] = Iv[1] = n;
+        double n = V[1] / 2;
+//        Sv[1] = Ev[1] = Iv[1] = n;
+        Iv[1] = n * 0.01;
+        Sv[1] = n;
+        Ev[1] = n * 0.99;
     }
 
     /*public static double r0(double T) {
