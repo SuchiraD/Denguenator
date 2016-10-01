@@ -218,7 +218,7 @@ public class MetaPopulationModel {
         String[] nextline;
         int mohID;
         try {
-            reader = new CSVReader(new FileReader("/Users/Janitha/Desktop/New folder (2)/Data/Dengue/dengueCases2013.csv"));
+            reader = new CSVReader(new FileReader("D:/Final Year Project/Data/Dengue/dengueCases2013.csv"));
 //            reader = new CSVReader(new FileReader("/Users/Anushka/Documents/workspace/CSV/dengueCases.csv"));
 
         } catch (Exception e) {
